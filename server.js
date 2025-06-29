@@ -40,7 +40,7 @@ const server = http.createServer(app);
 const allowedOrigins =
   process.env.NODE_ENV === "production"
     ? ["https://your-production-domain.com"]
-    : ["http://localhost:3000", "http://localhost:3001", "http://localhost:3002"];
+    : ["http://localhost:3000", "https://superadmine.onrender.com", "https://admine-yn4z.onrender.com"];
 
 // Enhanced Socket.IO configuration
 const io = new Server(server, {
